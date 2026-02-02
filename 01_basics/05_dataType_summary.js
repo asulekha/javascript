@@ -28,3 +28,26 @@ const myFunction =function(){
 }
 console.log(typeof myFunction);//function
 console.log(typeof heros);// object
+
+
+
+
+//******************************
+// Stack(Primitive)->ak copy milta h
+//  Heap(Non-Primitive)->reference milta h 
+
+let myUtube="sulekha.com"
+anothername="sulekhayadav.com"
+
+console.log(anothername);
+console.log(myUtube)
+let userOne={
+    email:"use@google.com",
+    upi:"user@ybl"
+}
+let userTwo =userOne;
+ 
+userTwo.email="sulekha@gmail.com"
+
+console.log(userOne.email)//output sulekha@gmail.com
+console.log(userTwo.email)//output sulekha@gmail.com
