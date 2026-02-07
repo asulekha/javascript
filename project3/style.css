@@ -1,0 +1,103 @@
+/* Reset default margin & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body background */
+body {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main box */
+.wrapper {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 420px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.wrapper h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+/* Paragraph text */
+.wrapper p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #e5e7eb;
+}
+
+/* Form section */
+.form {
+  margin-top: 20px;
+}
+
+/* Input box */
+.guessField {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Submit button */
+.guessSubmit {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.guessSubmit:hover {
+  background: #0ea5e9;
+  color: white;
+}
+
+/* Result section */
+.resultParss {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Highlight result */
+.lowOrHi {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #facc15;
+}
+
+/* Previous guesses highlight */
+.guesses {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+/* Remaining guesses */
+.lastResult {
+  color: #ef4444;
+  font-weight: bold;
+}
